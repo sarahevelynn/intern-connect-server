@@ -1,0 +1,102 @@
+var companyData = {
+  companyData: [
+    {
+      companyName: "Carnegie Steel Company",
+      industry: "Tech",
+      age: "0-1",
+      employeeNumber: "1-3",
+      type: "Marketing",
+      payment: "Paid",
+      hours: "0-10",
+      length: "2 Quarters",
+      summer: "Yes",
+      contactName: "Andrew Carnegie",
+      contactEmail: "andy@CarnegieSteelCompany.com",
+      contactPhone: "987-376-0987",
+      preferredContactMethod: "phone",
+      websiteLink: "CarnegieSteelCompany.com"
+    },
+    {
+      companyName: "ford",
+      industry: "Tech",
+      age: "0-1",
+      employeeNumber: "3-6",
+      type: "Marketing",
+      payment: "For Credit",
+      hours: "0-10",
+      length: "1 Quarter",
+      summer: "No",
+      contactName: "Henry Ford",
+      contactEmail: "henry@ford.com",
+      contactPhone: "762-741-8453",
+      preferredContactMethod: "phone",
+      websiteLink: "ford.com"
+    },
+    {
+      companyName: "You All Get One",
+      industry: "Healthcare",
+      age: "1-4",
+      employeeNumber: "6-10",
+      type: "Finance",
+      payment: "Either",
+      hours: "10-15",
+      length: "1 Semester",
+      summer: "Not Sure",
+      contactName: "Oprah Winfrey",
+      contactEmail: "oprah@YouAllGetOne.com",
+      contactPhone: "361-382-5372",
+      preferredContactMethod: "email",
+      websiteLink: "YouAllGetOne.com"
+    },
+    {
+      companyName: "MoMoneyMoProbs",
+      industry: "Product",
+      age: "4-8",
+      employeeNumber: "10-15",
+      type: "Accounting",
+      payment: "Paid",
+      hours: "15-20",
+      length: "2 Quarters",
+      summer: "Yes",
+      contactName: "Bill Gates",
+      contactEmail: "bill@MoMoneyMoProbs.com",
+      contactPhone: "111-222-3333",
+      preferredContactMethod: "either",
+      websiteLink: "MoMoneyMoProbs.com"
+    },
+    {
+      companyName: "google",
+      industry: "Consulting",
+      age: "8+",
+      employeeNumber: "15+",
+      type: "Other Business",
+      payment: "Either",
+      hours: "20-25",
+      length: "2 Semesters",
+      summer: "No",
+      contactName: "Larry Page",
+      contactEmail: "larry@google.com",
+      contactPhone: "639-281-7325",
+      preferredContactMethod: "email",
+      websiteLink: "google.com"
+    },
+    {
+      companyName: "Banff Mineral Springs Hospital",
+      industry: "Healthcare",
+      age: "8+",
+      employeeNumber: "15+",
+      type: "Physician's Assistant",
+      payment: "Paid",
+      hours: "20-25",
+      length: "2 Semesters",
+      summer: "No",
+      contactName: "Ed Stelmach",
+      contactEmail: "ed@google.com",
+      contactPhone: "+1 403-762-2222",
+      preferredContactMethod: "email",
+      websiteLink: "banff-mineral-springs-hospital.com"
+    }
+  ]
+};
+
+module.exports = { companyData };
