@@ -10,6 +10,7 @@ var newStudentsData = [];
 app.use(cors());
 app.use(bodyparser.json());
 
+
 app.get("/company", (request, response) => {
   response.json(dataCompanies);
 });
